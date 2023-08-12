@@ -38,3 +38,5 @@ Blaue Tonne
 ```
 
 Der Eintrag in der ersten Zeile stört nicht und kann so bleiben!
+
+Detailiertere Beschreibung folgt ...
