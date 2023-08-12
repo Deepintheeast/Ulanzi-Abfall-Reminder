@@ -5,7 +5,7 @@ einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtr
 https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/b3f03a60-cecd-4f2b-96ce-ce9eb8b0d0ae
 
 
-das Script wird bei mir einmal täglich per Cron aufgerufen
+das Script wird bei mir einmal täglich per Cron über ein Shellscript aufgerufen
 
 ``01 17  *  *  *    /home/pi/scripts/Ulanzi-Abfall-Reminder/start.sh    >/dev/null``
 
