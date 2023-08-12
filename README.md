@@ -1,5 +1,5 @@
 # Ulanzi-Abfall-Reminder
-Überwachung und Anzeige Abfalltermine auf Ulanzi Clock
+einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtrix Light"
 
 das Script wird bei mir einmal täglich per Cron aufgerufen
 
