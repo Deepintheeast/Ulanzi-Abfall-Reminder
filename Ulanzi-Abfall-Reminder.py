@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+#
+#
 from datetime import datetime, timedelta
 from csv import reader
 import requests
@@ -30,29 +33,29 @@ def check_tonne(farbe):
                 data = {
                     "text": "Achtung! Morgen gelbe Tonne! Rausstellen nicht vergessen! ",
                     "color": [239,245,66],
-                    "repeat": 1
-                    #"hold": bool(1)
+                    #"repeat": 1
+                    "hold": bool(1)
                 }
             if farbe == "blau":
                 data = {
                     "text": "Achtung! Morgen blaue Tonne! Rausstellen nicht vergessen! ",
                     "color": [0,0,255],
-                    "repeat": 1
-                    #"hold": bool(1)
+                    #"repeat": 1
+                    "hold": bool(1)
                 }
             if farbe == "bio":
                 data = {
                     "text": "Achtung! Morgen Biomüll! Tonne rausstellen nicht vergessen! ",
                     "color": [196,133,65],
-                    "repeat": 1
-                    #"hold": bool(1)
+                    #"repeat": 1
+                    "hold": bool(1)
                 }
             elif farbe == "rest":
                 data = {
                     "text": "Achtung! Morgen Restmüll! Tonne rausstellen nicht vergessen! ",
                     "color": [201,200,197],
-                    "repeat": 1
-                    #"hold": bool(1)
+                    #"repeat": 1
+                    "hold": bool(1)
                 }
             ulanzi_senden(url, data)
 # Ende Funktionen
@@ -62,4 +65,4 @@ def check_tonne(farbe):
 check_tonne("rest") # Restmüll
 check_tonne("gelb") # Gelbe Tonne
 check_tonne("blau") # Blaue Tonne
-#check_tonne("bio") # Biomüll
+check_tonne("bio") # Biomüll
