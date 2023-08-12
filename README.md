@@ -16,21 +16,21 @@ Die Entsorgungstermine im "CSV Format" bekomme ich von der Website meines Entsor
 
 Sie müssen für jede "Tonne" als seperate Datei, im selben Verzeichnis wie das Script, vorhanden sein <br> (gelb.csv , blau.csv , rest.csv , bio.csv) <br>und folgendes Format haben:
 
-
-Blaue Tonne<br> 
-02.01.2023<br> 
-30.01.2023<br> 
-27.02.2023<br> 
-27.03.2023<br> 
-24.04.2023<br> 
-22.05.2023<br> 
-19.06.2023<br> 
-17.07.2023<br> 
-14.08.2023<br> 
-11.09.2023<br> 
-09.10.2023<br> 
-06.11.2023<br> 
-04.12.2023<br> 
-
+```
+Blaue Tonne 
+02.01.2023 
+30.01.2023 
+27.02.2023 
+27.03.2023 
+24.04.2023
+22.05.2023
+19.06.2023
+17.07.2023
+14.08.2023
+11.09.2023
+09.10.2023
+06.11.2023
+04.12.2023
+```
 
 Der Eintrag in der ersten Zeile stört nicht und kann so bleiben!
