@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 from csv import reader
 import requests
 
-ulanzi_url = "http://192.168.169.235"  # URL der Ulanzi Pixelclock
+ulanzi_url = "http://192.168.x.x"  # URL der Ulanzi Pixelclock
 
 tomorrow = datetime.now() + timedelta(1)
 print("Tomorrow = ", tomorrow.strftime('%d.%m.%Y'))
