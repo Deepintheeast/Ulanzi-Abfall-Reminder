@@ -16,9 +16,9 @@ man diese durch Druck der mittleren Taste am Ulanzi bestätigt!
 
 
 
-Die Entsorgungstermine im "CSV Format" bekomme ich von der Website meines Entsorgers.
+Die Entsorgungstermine im "CSV Format" bekomme ich von der Website meines Entsorgers. Sollte das bei Euch so nicht möglich sein, einfach die vorhanden Dateien mit euren Terminen händisch befüllen! 😉
 
-Sie müssen für jede "Tonne" als seperate Datei, im selben Verzeichnis wie das Script, vorhanden sein <br> (gelb.csv , blau.csv , rest.csv , bio.csv) <br>und folgendes Format haben:
+Es müssen für jede "Tonne" eine seperate Datei, im selben Verzeichnis wie das Script, vorhanden sein <br> (gelb.csv , blau.csv , rest.csv , bio.csv) <br>und folgendes Format haben:
 
 ```
 Blaue Tonne 
