@@ -1,6 +1,10 @@
 # Ulanzi-Abfall-Reminder
 einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtrix Light"
 
+
+https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/52e245e2-6051-4d62-8c8a-33463559af7e
+
+
 das Script wird bei mir einmal täglich per Cron aufgerufen
 
 ``01 17  *  *  *    /home/pi/scripts/Ulanzi-Abfall-Reminder/start.sh    >/dev/null``
