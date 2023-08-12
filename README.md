@@ -2,7 +2,7 @@
 einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtrix Light"
 
 
-https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/52e245e2-6051-4d62-8c8a-33463559af7e
+https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/b3f03a60-cecd-4f2b-96ce-ce9eb8b0d0ae
 
 
 das Script wird bei mir einmal täglich per Cron aufgerufen
