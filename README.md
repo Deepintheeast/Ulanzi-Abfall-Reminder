@@ -5,6 +5,15 @@ einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtr
 https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/b3f03a60-cecd-4f2b-96ce-ce9eb8b0d0ae
 
 
+das Script benötigt folgende zusätzliche Abhängigkeiten:
+(Bitte wie folgt installieren! Alle die bereits den Ulanzi-Solaranzeige-Connector nutzen haben das bereits getan und können sich diesen Schritt sparen!)
+```
+apt update
+apt install python3-pip
+pip3 install requests
+```
+
+
 das Script wird bei mir einmal täglich per Cron über ein Shellscript aufgerufen
 
 ``01 17  *  *  *    /home/pi/scripts/Ulanzi-Abfall-Reminder/start.sh    >/dev/null``
