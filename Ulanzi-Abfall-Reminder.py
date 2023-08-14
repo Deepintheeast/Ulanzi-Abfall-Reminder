@@ -8,7 +8,7 @@ import requests
 ulanzi_url = "http://192.168.x.x"  # URL der Ulanzi Pixelclock
 
 tomorrow = datetime.now() + timedelta(1)
-print("Tomorrow = ", tomorrow.strftime('%d.%m.%Y'))
+#print("Tomorrow = ", tomorrow.strftime('%d.%m.%Y'))
 
 
 # Funktionen definieren
@@ -22,7 +22,6 @@ def check_tonne(farbe):
     datei= farbe+".csv"
     with open(datei, 'r') as csv_file:
         csv_reader = reader(csv_file)
-        # Passing the cav_reader object to list() to get a list of lists
         data = list(csv_reader)
         print(data)
         if tomorrow.strftime('%d.%m.%Y') in str(data):
