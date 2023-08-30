@@ -32,6 +32,8 @@ def check_tonne(farbe):
             if farbe == "gelb":
                 data = {
                     "text": "Achtung! Morgen gelbe Tonne! Rausstellen nicht vergessen! ",
+                    "icon": "tonne_gelb",
+                    "pushIcon": 2,
                     "color": [239,245,66],
                     #"repeat": 1
                     "hold": bool(1)
@@ -39,6 +41,8 @@ def check_tonne(farbe):
             if farbe == "blau":
                 data = {
                     "text": "Achtung! Morgen blaue Tonne! Rausstellen nicht vergessen! ",
+                    "icon": "tonne_blau",
+                    "pushIcon": 2,
                     "color": [0,0,255],
                     #"repeat": 1
                     "hold": bool(1)
@@ -46,6 +50,8 @@ def check_tonne(farbe):
             if farbe == "bio":
                 data = {
                     "text": "Achtung! Morgen Biomüll! Tonne rausstellen nicht vergessen! ",
+                    "icon": "tonne_bio",
+                    "pushIcon": 2,
                     "color": [196,133,65],
                     #"repeat": 1
                     "hold": bool(1)
@@ -53,6 +59,8 @@ def check_tonne(farbe):
             elif farbe == "rest":
                 data = {
                     "text": "Achtung! Morgen Restmüll! Tonne rausstellen nicht vergessen! ",
+                    "icon": "tonne_grau",
+                    "pushIcon": 2,
                     "color": [201,200,197],
                     #"repeat": 1
                     "hold": bool(1)
