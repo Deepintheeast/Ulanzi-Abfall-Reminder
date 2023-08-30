@@ -2,10 +2,19 @@
 einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtrix Light"
 
 
-https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/52e245e2-6051-4d62-8c8a-33463559af7e
+https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/b3f03a60-cecd-4f2b-96ce-ce9eb8b0d0ae
 
 
-das Script wird bei mir einmal täglich per Cron aufgerufen
+das Script benötigt folgende zusätzliche Abhängigkeiten:
+(Bitte wie folgt installieren! Alle die bereits den Ulanzi-Solaranzeige-Connector nutzen haben das bereits getan und können sich diesen Schritt sparen!)
+```
+apt update
+apt install python3-pip
+pip3 install requests
+```
+
+
+das Script wird bei mir einmal täglich per Cron über ein Shellscript aufgerufen
 
 ``01 17  *  *  *    /home/pi/scripts/Ulanzi-Abfall-Reminder/start.sh    >/dev/null``
 
@@ -16,9 +25,9 @@ man diese durch Druck der mittleren Taste am Ulanzi bestätigt!
 
 
 
-Die Entsorgungstermine im "CSV Format" bekomme ich von der Website meines Entsorgers.
+Die Entsorgungstermine im "CSV Format" bekomme ich von der Website meines Entsorgers. Sollte das bei Euch so nicht möglich sein, einfach die vorhanden Dateien mit euren Terminen händisch befüllen! 😉
 
-Sie müssen für jede "Tonne" als seperate Datei, im selben Verzeichnis wie das Script, vorhanden sein <br> (gelb.csv , blau.csv , rest.csv , bio.csv) <br>und folgendes Format haben:
+Es müssen für jede "Tonne" eine seperate Datei, im selben Verzeichnis wie das Script, vorhanden sein <br> (gelb.csv , blau.csv , rest.csv , bio.csv) <br>und folgendes Format haben:
 
 ```
 Blaue Tonne 
@@ -38,3 +47,5 @@ Blaue Tonne
 ```
 
 Der Eintrag in der ersten Zeile stört nicht und kann so bleiben!
+
+Detailiertere Beschreibung folgt ...
