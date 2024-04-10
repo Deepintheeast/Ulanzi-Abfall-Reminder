@@ -1,5 +1,5 @@
 # Ulanzi-Abfall-Reminder
-einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit Awtrix Light"
+einfache Überwachung und Anzeige Abfalltermine auf "Ulanzi Pixel Clock mit AWTRIX3"
 
 
 https://github.com/Deepintheeast/Ulanzi-Abfall-Reminder/assets/136626582/b3f03a60-cecd-4f2b-96ce-ce9eb8b0d0ae
