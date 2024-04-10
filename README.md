@@ -21,7 +21,7 @@ das Script wird bei mir einmal täglich per Cron über ein Shellscript aufgerufe
 und checkt ob für den "morgigen" Tag Abholtermine anstehen.
 
 Ist das der Fall erhalte ich eine entsprechende "Notifikation" auf dem Ulanzi die erst wieder weg geht wenn
-man diese durch Druck der mittleren Taste am Ulanzi oder über die "AWTRIX light" App am Smartphone bestätigt!
+man diese durch Druck der mittleren Taste am Ulanzi oder über die "AWTRIX3" App am Smartphone bestätigt!
 
 
 
